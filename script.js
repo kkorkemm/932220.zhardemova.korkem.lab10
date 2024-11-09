@@ -31,14 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     rabbit.addEventListener('click', function() {
-        rabbit.style.transform = 'translate(30%, 130%)';
+        rabbit.style.transform = 'translate(30%, 120%)';
         setTimeout(() => {
             dove.style.transform = 'translate(30%, 0)';
         }, 500);
     });
 
     dove.addEventListener('click', function() {
-        dove.style.transform = 'translate(30%, 130%)';
+        dove.style.transform = 'translate(30%, 100%)';
         setTimeout(() => {
             rabbit.style.transform = 'translate(30%, 0)';
         }, 500);

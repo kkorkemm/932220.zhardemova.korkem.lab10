@@ -89,9 +89,9 @@ body, html {
     top: 65%;
     right: 40%;
     transform: translateX(40%);
-    width: 130px;
-    height: 130px;
-    background-image: url('hat.png');
+    width: 150px;
+    height: 110px;
+    background-image: url('Hat.png');
     background-size: cover;
     opacity: 0;
 }
@@ -105,11 +105,11 @@ body, html {
     height: 90px;
     transition: transform 0.5s;
     opacity: 0;
-    background-image: url('rabbit.png');
+    background-image: url('Rabbit.png');
     background-size: cover;
 }
 
 .dove {
-    transform: translate(40%, 130%);
-    background-image: url('dove.png');
+    transform: translate(40%, 120%);
+    background-image: url('Bird.png');
 }
